@@ -1,0 +1,167 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul.menu {
+    border-style: solid;
+    border-width: 1px;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background-color: black;
+}
+
+ul.menu li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+ul.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    color: #99DDFF;
+    text-decoration: underline;
+}
+
+ul.menu li.selected {
+    color: yellow;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: lightgray;
+}
+
+article div {
+    border: grey solid 3px;
+    border-radius: 25px;
+    padding: 3em;
+    background-color: beige;
+}
+
+article div h2 {
+    text-align: center;
+}
+
+aside {
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #FFFFC0;
+    box-shadow: 10px 10px 5px gray;
+    color: #2F5670;
+    list-style-type: square;
+    font-size: 1em;
+}
+
+.teams,
+.hobbies {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+}
+
+.teams li {
+    border: black solid 2px;
+    border-radius: 25px;
+    width: 28%;
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: silver;
+}
+
+th,
+td {
+    vertical-align: top;
+    padding: 0.5em;
+    text-align: left;
+}
+
+table.crossword,
+.crossword td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.crossword td {
+    width: 3em;
+    height: 3em;
+    vertical-align: top;
+    background-color: white;
+}
+
+.crossword .black {
+    background-color: black;
+}
+
+.sudoku {
+    border: 2px solid black;
+}
+
+.sudoku td {
+    border: 1px solid black;
+    width: 3em;
+    height: 3em;
+    vertical-align: top;
+    background-color: white;
+    padding: 0.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sudoku .border-thick-left {
+    border-left: 2px solid black;
+}
+
+.sudoku .border-thick-top {
+    border-top: 2px solid black;
+}
+
+.container p a {
+    text-decoration: none;
+    color: red;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.answer {
+    color: red;
+}
+
+.back a {
+text-decoration: none;
+color: green;
+}
