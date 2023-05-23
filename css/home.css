@@ -1,10 +1,45 @@
 body {
     font-family: sans-serif;
-    background-image: url('../images/cool-lee.png');
-    }
-    h1 {
+    background-image: url('../images/background.jpg');
+}
+
+h1 {
     padding: 0.5em;
     background-color: black;
     color: white;
     border-radius: 0.5em;
-    }
+}
+
+h2,
+p {
+    color: beige;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: beige;
+}
+
+.menu li {
+    list-style: none;
+    line-height: 24px;
+}
+
+.menu li a:hover {
+    color: rgb(214, 26, 26);
+    font-size: 24px;
+}
+
+img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
